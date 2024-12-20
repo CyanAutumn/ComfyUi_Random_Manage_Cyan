@@ -1,0 +1,14 @@
+[project]
+name = "comfyui_random_manage_cyan"
+description = "A random prompt node"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/CyanAutumn/ComfyUi_Random_Manage_Cyan"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUi_Random_Manage_Cyan"
+Icon = ""
