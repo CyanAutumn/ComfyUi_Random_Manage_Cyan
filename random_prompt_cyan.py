@@ -1,5 +1,5 @@
 from comfy.comfy_types import IO, ComfyNodeABC, InputTypeDict
-from custom_nodes.ComfyUi_Random_Prompt_Cyan.wildcard import tools, wildcard_file
+from custom_nodes.ComfyUi_Random_Manage_Cyan.wildcard import tools, wildcard_file
 
 
 class RandomPromptCyan:

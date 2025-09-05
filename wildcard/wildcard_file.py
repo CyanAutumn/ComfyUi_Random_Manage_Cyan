@@ -1,6 +1,6 @@
 import random
-from custom_nodes.ComfyUi_Random_Prompt_Cyan import random_prompt_cyan
-from custom_nodes.ComfyUi_Random_Prompt_Cyan.wildcard.base import Base
+from custom_nodes.ComfyUi_Random_Manage_Cyan import random_prompt_cyan
+from custom_nodes.ComfyUi_Random_Manage_Cyan.wildcard.base import Base
 
 class WildcardFile(Base):
     buf_text:str

@@ -1,8 +1,8 @@
 import re
 from typing import List
-from custom_nodes.ComfyUi_Random_Prompt_Cyan.wildcard.base import Base
-from custom_nodes.ComfyUi_Random_Prompt_Cyan.wildcard.wildcard_file import WildcardFile
-from custom_nodes.ComfyUi_Random_Prompt_Cyan.wildcard.wildcard_folder import WildcardFolder
+from custom_nodes.ComfyUi_Random_Manage_Cyan.wildcard.base import Base
+from custom_nodes.ComfyUi_Random_Manage_Cyan.wildcard.wildcard_file import WildcardFile
+from custom_nodes.ComfyUi_Random_Manage_Cyan.wildcard.wildcard_folder import WildcardFolder
 
 def parse_prompt_to_wildcards(prompt:str,folder_path:str,file_path:str):
     tags: List[str] = [tag.strip() for tag in prompt.split(',')]

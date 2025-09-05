@@ -1,5 +1,5 @@
-from custom_nodes.ComfyUi_Random_Prompt_Cyan.random_prompt_cyan import RandomPromptCyan
-from custom_nodes.ComfyUi_Random_Prompt_Cyan.remove_tags_cyan import RemoveTagsCyan
+from custom_nodes.ComfyUi_Random_Manage_Cyan.random_prompt_cyan import RandomPromptCyan
+from custom_nodes.ComfyUi_Random_Manage_Cyan.remove_tags_cyan import RemoveTagsCyan
 
 NODE_CLASS_MAPPINGS = {
     "Random Prompt Cyan": RandomPromptCyan,
